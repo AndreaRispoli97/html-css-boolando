@@ -31,11 +31,33 @@ header nav div{
     width: auto;
 }
     
-
 /* /HEADER INTESTAZIONE */
 
 /* MAIN CON FOTO */
 
+main{
+    margin-top:60px;
+}
+
+.box{
+    width: 450px;
+    height: 700px;
+    background-color: red;
+    margin:20px;
+    flex-shrink: 0;
+}
+
+.box img{
+    width: 450px;
+    height: calc(100% - 20%);
+    
+}
+.container-shop{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
 
 /* /MAIN CON FOTO */
 
