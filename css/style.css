@@ -2,4 +2,53 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
+
+/* HEADER INTESTAZIONE */
+header{
+    background-color: #ff6900;
+    height: 70px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding:0px 270px;
+}
+
+header nav div{
+    display: flex;
+    color:#fff;
+    padding: 5px;
+    size: 10px;
+}
+
+    
+
+/* /HEADER INTESTAZIONE */
+
+
+/* MAIN CON FOTO */
+
+/* /MAIN CON FOTO */
+
+/* PIEDE DI PAGINA */
+
+/* /PIEDE DI PAGINA */
+
+
+
+
+/* UTILITY VARIE */
+
+
+
+/* /UTILITY VARIE */
+
+/* DEBUG VARI */
+
+
+/* /DEBUG VARI */
