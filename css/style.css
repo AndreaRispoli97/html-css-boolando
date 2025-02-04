@@ -41,15 +41,15 @@ main{
 
 .box{
     width: 450px;
-    height: 700px;
-    background-color: red;
+    height: auto;
+    background-color: #fff;
     margin:20px;
     flex-shrink: 0;
 }
 
 .box img{
     width: 450px;
-    height: calc(100% - 20%);
+    height: 700px;
     
 }
 .container-shop{
@@ -57,6 +57,45 @@ main{
     justify-content: space-around;
     flex-wrap: wrap;
     padding: 20px;
+}
+
+a{
+    text-decoration-line: line-through;
+    color: #000;
+}
+
+.green{
+    background-color: green;
+    padding:5px;
+    position: absolute;
+    bottom:100px;
+    left: 60px;
+    color:#fff;
+}
+
+.nfm{
+    background-color: green;
+    padding:5px;
+    position: absolute;
+    bottom:100px;
+    color:#fff;
+}
+
+.box{
+    position:relative;
+}
+
+.offerta{
+    background-color: red;
+    padding:5px;
+    position: absolute;
+    bottom:100px;
+    color:#fff;
+    
+}
+
+h5{
+    color: #ff0000;
 }
 
 /* /MAIN CON FOTO */
