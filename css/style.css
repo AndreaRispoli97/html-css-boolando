@@ -82,18 +82,16 @@ a{
     color:#fff;
 }
 
-.assoluto{
-    position:relative;
+.box .assoluto .immagine-sotto{
+    position:none;
 }
 
-.immagine-sopra{
-    position:relative;
-    z-index: 0;
+.box .assoluto .immagine-sopra:hover {
+    display: none;
 }
 
-.immagine-sotto{
-    position:relative;
-    z-index: 5;
+.box .assoluto .immagine-sotto:hover{
+    display: block;
 }
 
 .offerta{
